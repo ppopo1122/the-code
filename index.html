@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1d2828">
+  <meta name="description" content="THE CODE 게임 룰지. 게임 안내, 탈출 방법, 스파이와 기타 규칙을 확인하세요.">
+  <title>THE CODE · 룰지</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='4' width='28' height='23' fill='%23999489'/%3E%3Crect x='5' y='7' width='22' height='16' fill='%231e2222'/%3E%3Cpath d='m9 11 4 4-4 4m7 0h6' fill='none' stroke='%2395db88' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="assets/the-code-logo.png">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main aria-label="THE CODE 룰지">
+    <div class="reader">
+      <section id="page" class="page" aria-label="룰지 페이지">
+        <img id="art" src="assets/page-0.png" alt="" width="1920" height="1080" fetchpriority="high">
+        <article id="content" class="content"></article>
+        <div class="crt-screen-effects" aria-hidden="true"><span class="crt-scanlines"></span><span class="crt-sweep"></span><span class="crt-interference"></span></div>
+      </section>
+      <nav class="navigation" aria-label="페이지 이동">
+        <button id="previous" class="arrow" type="button" aria-label="이전 페이지" title="이전 페이지 (←)">←</button>
+        <div class="page-info"><span id="page-title">THE CODE</span><span id="counter" role="status" aria-live="polite" aria-atomic="true">01 / 12</span></div>
+        <button id="next" class="arrow" type="button" aria-label="다음 페이지" title="다음 페이지 (→)">→</button>
+      </nav>
+      <p class="keyboard-hint">키보드 ← → 로도 넘길 수 있습니다</p>
+    </div>
+  </main>
+  <noscript>룰지를 넘기려면 브라우저의 JavaScript를 켜 주세요.</noscript>
+</body>
+</html>
